@@ -99,13 +99,23 @@
      ========================================================================== */
   /* General Styles */
   /* Note - remember mobile first*/
+  :root {
+    --dkteal: #006d77;
+    --teal: #83c5be;
+    --blue: #d1e8f0;
+    --ltblue: #edf6f9;
+    --coral: #ffddd2;
+    --dkcoral: #e29578;
+    --beige: #fcfbf9;
+    --dkgray: #707070;
+  }
   html {
     font-size: 16px;
   }
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1em;
-    color: #e2e3ed;
+    color: var(--dkgray);
     text-align: left;
   }
   ul, ol {
@@ -140,7 +150,90 @@
   }
   .content-wrapper {
     width: 90%;
-    margin: 50px 0;
+    margin: 0 auto;
+  }
+  section#sight {
+    height: 100vh;
+    background: var(--dkteal);
+  }
+  section#touch {
+    height: 100vh;
+    background: var(--teal);
+  }
+  section#hear {
+    height: 100vh;
+    background: var(--blue);
+  }
+  section#smell {
+    height: 100vh;
+    background: var(--coral);
+  }
+  section#taste {
+    height: 100vh;
+    background: var(--dkcoral);
+  }
+  .number-card .content-wrapper {
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: var(--dkgray);
+    font-size: 36px;
+  }
+  .number-card .content-wrapper p {
+    padding: 5vh;
+  }
+  .number-card .content-wrapper span {
+    font-weight: bolder;
+  }
+  .number-card {
+    position: relative;
+    z-index: 1;
+  }
+  .number-card:before {
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    right: 0;
+    bottom: 0;
+    left: -10%;
+    font-size: 40em;
+    font-weight: bolder;
+    opacity: .5;
+    color: var(--beige);
+  }
+  #sight:before {
+    content: "5";
+  }
+  #touch:before {
+    content: "4";
+  }
+  #hear:before {
+    content: "3";
+  }
+  #smell:before {
+    content: "2";
+  }
+  #taste:before {
+    content: "1";
+  }
+  button {
+    background: var(--beige);
+    border-radius: 50px;
+    border: none;
+    padding: 20px 40px;
+    color: var(--dkgray);
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  button a {
+    color: var(--dkgray);
+  }
+  button:hover {
+    background: var(--ltblue);
   }
   /* ---------- BASE HEADER - FOOTER STYLES ------------- */
   /* Reminder - top right bottom left */
