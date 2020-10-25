@@ -178,12 +178,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
     color: var(--dkgray);
     font-size: 48px;
   }
   .number-card .content-wrapper p {
-    padding: 5vh;
+    padding: 10vh 5vh 5vh 5vh;
   }
   .number-card .content-wrapper span {
     font-weight: bolder;
@@ -350,8 +350,9 @@
     min-height: 500px; /*It shows too much of her shirt - why??*/
   }
   .hero-area h1 {
+    color: var(--beige);
     font-size: 2.25em;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2; /*line height does not need px or em or percentage - trick*/
   }
