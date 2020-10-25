@@ -17,3 +17,11 @@ Collaborators:
 - [Bethany](https://github.com/whimsicurl-creations)
 
 HTML and CSS were used to create this response site design.
+
+Additional resources used:
+- Photo from [Pexels](https://www.pexels.com/photo/altitude-amazing-calm-cliff-552784/)
+- Nunito Sans Font from [Google Fonts](https://fonts.google.com/specimen/Nunito+Sans?query=nun)
+- Color scheme created on [Coolors](https://coolors.co/006d77-83c5be-edf6f9-ffddd2-e29578-e8aa93)
+- Favicon created with [Favicon.io](https://favicon.io/favicon-generator/)
+
+Shout out to [Skillcrush](https://skillcrush.com/) for helping us learn the skills to create this site!
