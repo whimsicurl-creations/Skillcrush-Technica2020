@@ -342,7 +342,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+    background: url('../img/mountains.jpg') center no-repeat #333;
     background-size: cover;
     background-position: center;
     min-height: 500px; /*It shows too much of her shirt - why??*/
