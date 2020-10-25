@@ -408,7 +408,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-direction: column;
   }
   #breathing article {
     width: 60%;
@@ -460,6 +460,12 @@
     background-size: cover;
     background-position: center;
   }
+  #resources .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   #resources h2 {
     margin-bottom: 40px;
     margin-top: 40px;
@@ -478,6 +484,9 @@
     margin-bottom: 20px;
     color: var(--beige);
     text-align: center;
+  }
+  #resources article {
+    width: 60%;
   }
   /* iFrame Embedded Videos */
   #resources figure {
