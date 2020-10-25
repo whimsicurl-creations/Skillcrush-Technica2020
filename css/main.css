@@ -304,21 +304,24 @@
     text-align: center;
   }
   footer .content-wrapper {
-    width: 70%;
-    margin-top: 50px;
+    width: 80%;
+    margin-top: 30px;
     margin-bottom: 10px;
   }
   footer .hotline {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
-  footer p {
+  footer p, a {
     margin: 0;
+    font-size: 1em;
   }
   footer h2 {
-    font-size: 2em;
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0px;
   }
   footer h4 {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     margin-top: 0;
   }
   footer .copyright {
@@ -454,6 +457,8 @@
     justify-content: center;
     flex-flow: row wrap;
     background-color: #006d77;
+    background-size: cover;
+    background-position: center;
   }
   #resources h2 {
     margin-bottom: 40px;
@@ -467,6 +472,7 @@
     margin: 20px 0;
     color: var(--beige);
     text-align: center;
+    font-size: 1.25em;
   }
   #resources p {
     margin-bottom: 20px;
@@ -482,8 +488,8 @@
     position: relative; /*doesn't do anything but allows you to put absolute position in the child div*/
   }
   #resources iframe {
-    width: 80%; /*fill entire div width*/
-    height: 80%; /*fill entire div height*/
+    width: 100%; /*fill entire div width*/
+    height: 100%; /*fill entire div height*/
     position: absolute;
     top: 0;
     left: 0;
@@ -679,13 +685,19 @@
       align-items: baseline; /*maybe center once icons are in*/
       flex-direction: row;
     }
-    footer .contact {
+    footer .hotline {
+      margin-bottom: 0;
+    }
+    footer .hotline h2 {
       margin-bottom: 0;
     }
     footer h4 {
-      font-size: 1.5em;
+      font-size: 1em;
     }
-    footer .social {
+    footer h2 {
+      margin-bottom: 20px;
+    }
+    footer .hotline {
       width: 35%;
       justify-content: space-between;
     }
