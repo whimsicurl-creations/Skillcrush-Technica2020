@@ -1,7 +1,7 @@
 # Technica 2020 - Skillcrush Team
 Skillcrush team site for Technica 2020 Hackathon
 
-Live site - coming soon.
+Live site - [Panic Attack Help](https://abagaelshrader.github.io/Skillcrush-Technica2020/)
 
 Our site aims to help provide steps to work through a panic attack.
 
@@ -15,3 +15,5 @@ Collaborators:
 - [Abagael](https://github.com/abagaelshrader)
 - [Luvia](https://github.com/luvimoli)
 - [Bethany](https://github.com/whimsicurl-creations)
+
+HTML and CSS were used to create this response site design.
