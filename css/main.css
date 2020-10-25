@@ -180,13 +180,16 @@
     align-items: flex-end;
     justify-content: space-around;
     color: var(--dkgray);
-    font-size: 36px;
+    font-size: 48px;
   }
   .number-card .content-wrapper p {
     padding: 5vh;
   }
   .number-card .content-wrapper span {
     font-weight: bolder;
+  }
+  .dark-bg .content-wrapper {
+    color: var(--beige);
   }
   .number-card {
     position: relative;
@@ -195,10 +198,10 @@
   .number-card:before {
     position: absolute;
     z-index: -1;
-    top: -10%;
+    top: -13%;
     right: 0;
     bottom: 0;
-    left: -10%;
+    left: 0;
     font-size: 40em;
     font-weight: bolder;
     opacity: .5;
