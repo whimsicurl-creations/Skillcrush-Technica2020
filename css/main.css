@@ -331,6 +331,7 @@
   /* ------------ MOBILE STYLES - HOMEPAGE ------------ */
   /* HERO AREA */
   .hero-area {
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
